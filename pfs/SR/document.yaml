@@ -1,18 +1,17 @@
-title: Surface Reflectance
-version: 5.0.1-draft
+title: Aquatic Reflectance
+version: 2.0-draft
 type: Optical
 applies_to: |-
-  Data collected with multispectral optical sensors operating in the VIS/NIR/SWIR wavelengths at all ground sample distances and resolutions.
+  Data collected with multispectral and hyperspectral imaging sensors operating in the VIS/NIR/SWIR wavelengths over water bodies (including oceans, seas, coastal zones, and inland waters). These typically operate with ground sample distance and resolution in the order of 1-4000 metres however the specification is not inherently limited to these resolutions.
 
 # Only glossary entries that are not specific to certain requirements or sections are listed here.
 glossary:
-  - sr
+  - ar
   - vis
   - nir
   - swir
 
 references:
-  - li2012 # todo: move to req. 3.3
 
 introduction:
   - what-are-ceos-ard-products
@@ -68,21 +67,13 @@ requirements:
 annexes:
 
 authors:
-  - name: Geoscience Australia
-    country: Australia
-    members:
-      - Adam Lewis
-      - Jonathon Ross
-      - Andreia Siqueira
-  - name: USGS
-    country: USA
-    members:
-      - Darcie Bontje
-      - Steve Labahn
-      - Mary Metzger
-  - name: LSI-VC Secretariat
-    members:
-      - Matt Steventon
+  - Adam Lewis, Geoscience Australia, Australia
+  - Jonathon Ross, Geoscience Australia, Australia
+  - Andreia Siqueira, Geoscience Australia, Australia
+  - Darcie Bontje, USGS, USA
+  - Steve Labahn, USGS, USA
+  - Mary Metzger, USGS, USA
+  - Matt Steventon, LSI-VC Secretariat
 
 changes:
   - date: 2026-03-26
