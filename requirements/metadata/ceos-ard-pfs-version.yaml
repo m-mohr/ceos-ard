@@ -3,7 +3,7 @@ title: CEOS-ARD PFS Compliance Version
 description: 
 requirements:
   threshold:
-    description: Version of the CEOS-ARD PFS with which the product is complying is identified.
+    description: Identifier and Version of the CEOS-ARD PFS with which the product is complying is identified.
 dependencies:
 glossary:
   - ceos-ard
